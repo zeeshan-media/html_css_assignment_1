@@ -1,0 +1,114 @@
+
+body{
+    margin: 0px;
+}
+.wrapper{
+    max-width: 75%;
+    margin: 0px auto;
+}
+header{
+    height: 10%;
+    margin: 0%;
+    padding:17px;
+}
+
+/* This is for the logo we have to add in thre header */
+.logo{
+    float: left;
+    width: 20%;
+}
+
+.wrapper .logo a{
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: cursive;
+    color: green;
+}
+
+
+/* This for nav bar we have added in the header */
+nav{
+    float: right;
+    width: 37%;
+    padding: 10px 0px;
+
+}
+nav a{
+    outline: none;
+    text-decoration: none;
+    padding: 20px 0px 20px 45px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: cursive;
+    color: rgb(5, 17, 5);
+}
+
+/* This is for the image banner we have to add */
+.image img{ 
+    margin: 38px 0px;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* This heading text button section */
+.wrapper .heading{
+    text-align: center;
+}
+.heading h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.heading p{
+    width:75%;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+} 
+
+.heading a{
+    display: inline-block;
+    margin: 20px auto 50px auto;
+    outline: none;
+    text-decoration: none;
+    height: 20px;
+    background-color: rgb(16, 66, 109);
+    padding: 12px 44px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* profiles section */
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.person-1{
+    text-align: center;
+    width: 23.5%;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+.person-1 img{
+    margin:30px 0px;
+}
+
+.person-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 16px;
+    margin:2px;
+}
+.person-1 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.person-1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+}
